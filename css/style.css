@@ -1,0 +1,75 @@
+body{
+    background-color: goldenrod;
+    font-family: "Architects Daughter"; font-size: 24px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 36px; 
+}
+.wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1000px;
+    margin-right: auto; 
+    margin-left: auto;
+    position: relative;
+}
+.nav {
+    list-style-type: none;
+    padding-left: 300px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.nav>li {
+    padding-left: 30px;
+    margin-left: 200px;
+}
+.nav>li>a {
+    text-align: center;
+    text-decoration: none;
+    color: crimson;
+}
+.aside {
+    list-style-type: none;
+    text-transform: capitalize;
+    background-color: rgba(124, 68, 31, 0.884);
+    left: 0;
+}   
+.aside>li>a {
+    text-decoration: none;
+    color: azure;
+}
+.banner {
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 1600px;
+}
+.main {
+    display: flex;
+    background-color:  goldenrod;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px; 
+}
+.stih {
+    font-size: 20px;
+}
+.footer {
+    background-color: azure;
+    padding-top: 3000px 0;
+    bottom: 20px 0;
+    color: blueviolet;
+    text-transform: uppercase;
+    font: 20px;
+    text-align: center;
+
+}
+.title {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 300px;
+}
+.logo {
+    text-align: center;
+    padding-left: 600px;
+}
